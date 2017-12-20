@@ -1,0 +1,42 @@
+page-inicio {
+    .content {
+        background-color: white;
+      }
+      
+      .center {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .title {
+        color: black;
+        font-size: 32px;
+      }
+      
+      .logo {
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        display: block;
+        width:90%;
+        height: 25%;
+      }
+      
+      .toolbar-background {
+        background-color: white;
+      }
+      
+      .btnProcurar {
+        top: 100px;
+        left: 13px;
+        width: 90%;
+        height: 50px;
+      }
+      
+      ::-webkit-scrollbar{
+      display:none;
+      }      
+}
